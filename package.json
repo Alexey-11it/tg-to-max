@@ -1,0 +1,11 @@
+{
+  "name": "tg-to-max-migrator",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "check": "node --env-file=.env src/check.js",
+    "dry-run": "node --env-file=.env src/index.js --dry-run",
+    "test10": "node --env-file=.env src/index.js --limit 10",
+    "start": "node --env-file=.env src/index.js"
+  }
+}
